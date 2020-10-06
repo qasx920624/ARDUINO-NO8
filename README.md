@@ -24,7 +24,7 @@ int ch = 1;
 void loop() {
 if(digitalRead(8)==0)
 {
-while(digitalRead(8)==0)delay(50);
+while(digitalRead(8)==0)delay(50);//★防彈跳★
 x++;
 if(x>3)x=1;
 
@@ -41,7 +41,7 @@ void mod()
 {
 switch(x)
 {
-case 1:
+case 1://step1程式部分
 led(150,0,0); delay(300);
 led(0,150,0); delay(300);
 led(0,0,150); delay(300);
@@ -49,14 +49,14 @@ led(150,150,0);delay(300);
 led(0,150,150);delay(300);
 led(150,0,150);delay(300);
 break;
-case 2:
+case 2://step2程式部分
 if(m>=255||m<=0){s=-s;}
 m=m-s;
 analogWrite(3,m);
 delay(70);
 led(0,0,0);
 break;
-case 3:
+case 3://step3程式部分
 if(digitalRead(9)==0)
 {
 while(digitalRead(9)==0)delay(50);
