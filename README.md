@@ -71,36 +71,12 @@ void mod()
       }
       switch(ch)
       {
-        case 1:
-        {
-          led(150,0,0);
-          break;
-        }
-        case 2:
-        {
-          led(0,150,0);
-          break;
-        }
-        case 3:
-        {
-          led(0,0,150);
-          break;
-        }
-        case 4:
-        {
-          led(150,150,0);
-          break;
-        }
-        case 5:
-        {
-          led(150,0,150);
-          break;
-        }
-        case 6:
-        {
-          led(150,150,150);
-          break;
-        }
+        case 1:{ led(150,0,0); break;}
+        case 2:{led(0,150,0); break;}
+        case 3:{led(0,0,150); break;}
+        case 4:{led(150,150,0);break;}
+        case 5:{led(150,0,150);break;}
+        case 6:{led(150,150,150); break;}
       }
   }
 }
