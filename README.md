@@ -41,19 +41,12 @@ void mod()</br>
   switch(x)</br>
   {</br>
     case 1:</br>
-      led(150,0,0);</br>
-      delay(300);</br>
-      led(0,150,0);</br>
-      delay(300);</br>
-      led(0,0,150);</br>
-      delay(300);</br>
-      led(150,150,0);</br>
-      delay(300);</br>
-      led(0,150,150);</br>
-      delay(300);</br>
-      led(150,0,150);</br>
-      delay(300);</br>
-      led(0,0,0);</br>
+      led(150,0,0);  delay(300);</br>
+      led(0,150,0);  delay(300);</br>
+      led(0,0,150);  delay(300);</br>
+      led(150,150,0);delay(300);</br>
+      led(0,150,150);delay(300);</br>
+      led(150,0,150);delay(300);</br>
       break;</br>
     case 2:</br>
       if(m>=255||m<=0){s=-s;}</br>
