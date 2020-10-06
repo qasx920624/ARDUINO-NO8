@@ -28,8 +28,7 @@ void loop() {
     if(x>3)x=1;
    
   }
-   mod();
-  
+   mod(); 
 }
 void led(int a,int b,int c)
 {
@@ -37,7 +36,6 @@ void led(int a,int b,int c)
   analogWrite(3,b);
   analogWrite(4,c);
 }
-
 void mod()
 {
   switch(x)
