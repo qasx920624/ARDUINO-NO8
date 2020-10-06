@@ -6,7 +6,7 @@ step3按一下按鈕換一種顏色(至少六種顏色</p>
 步驟的更替也以按按鈕的形式呈現</p>
 程式如下</p>
 </p>
-```C++
+
 void setup() {</br>
   for(int i=2;i<4;i++)</br>
   pinMode(i,OUTPUT);</br>
@@ -80,5 +80,3 @@ void mod()</br>
       }</br>
   }</br>
 }</br>
-
-```
