@@ -59,7 +59,7 @@ break;
 case 3://step3程式部分
 if(digitalRead(9)==0)
 {
-while(digitalRead(9)==0)delay(50);
+while(digitalRead(9)==0)delay(50);//★防彈跳★
 ch++;
 if(ch>6)ch=1;
 }
